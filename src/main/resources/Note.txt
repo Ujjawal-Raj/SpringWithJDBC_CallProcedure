@@ -1,0 +1,3 @@
+Note : If Oracle dependency is giving error then go to your project root folder through cmd prompt and execute this command:
+Example:
+E:\SpringProgramAnjiReddy\SpringJDBCStoreProcedure1>mvn install:install-file -groupId=com.oracle -DartifactId=ojdbc5 -Dversion=11.2.0 -Dpackaging=jar -Dfile=C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc5.jar -DgeneratePom=true;
